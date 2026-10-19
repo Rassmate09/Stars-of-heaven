@@ -54,6 +54,11 @@ footer{
 }
 
 li:nth-child(odd) {background-color: gainsboro;}
+li.footermeny{
+    background-color: lightblue;
+    list-style-type: none;
+}
+
 li.footer{
     background-color: lightblue;
 }
