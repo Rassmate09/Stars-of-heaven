@@ -1,0 +1,74 @@
+html, body{height: 100%; padding: 0%; margin: 0%;}
+
+.container{
+    display: grid;
+    grid-template-columns: 5% 15% 20% 20% 20% 20%;
+    grid-template-rows: 10% 70% 20%;
+    grid-template-areas: 
+    "header header header header header header"
+    ". main main main aside aside"
+    "footer footer footer footer footer footer"
+    ;
+}
+
+header{
+    grid-area: header;
+    text-align: center;
+    background-color: lightgray;
+}
+
+main{
+    grid-area: main;
+}
+
+aside{
+    grid-area: aside;
+}
+
+footer{
+    grid-area: footer;
+    background-color: lightblue;
+}
+
+
+.container2{
+    display: grid;
+    grid-template-columns: 5% 15% 20% 20% 20% 20%;
+    grid-template-rows: 10% 70% 20%;
+    grid-template-areas: 
+    "header header header header header header header"
+    ". main main main aside aside ."
+    "footer footer footer footer footer footer footer";
+
+}
+
+.container3{
+    display: grid;
+    grid-template-columns: 5% 15% 20% 20% 20% 20%;
+    grid-template-rows: 10% 70% 20%;
+    grid-template-areas: 
+    "header header header header header header header"
+    ". main main main aside aside ."
+    "footer footer footer footer footer footer footer";
+
+}
+
+li:nth-child(odd) {background-color: gainsboro;}
+li.footer{
+    background-color: lightblue;
+}
+
+img.band{
+    width: 250px;
+    height: 250px;
+}
+
+img.medlemmar{
+    width: 512px;
+    height: 316px;
+}
+
+img.album{
+    width: 150px;
+    height: 150px;
+}
